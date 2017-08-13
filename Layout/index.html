@@ -4,13 +4,13 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Indonesia Game Portal | Best Online Game Portal In Indonesia</title>
-	<link rel="stylesheet" href="css/grid.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="./css/grid.css">
+	<link rel="stylesheet" href="./css/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./js/jquery-ui/jquery-ui.min.css">
-	<link rel="stylesheet" href="css/font-awesome/font-awesome.css">
+	<link rel="stylesheet" href="./css/font-awesome/font-awesome.css">
 </head>
 <body>
-<div class="site-overlay"></div>
 <!-- Header Link -->
 		<div class="row">
 			<div class="container-fluid header-link">
@@ -87,17 +87,17 @@
 				        <a href="#">FEATURED <span class="fa fa-arrow-down"></span></a>
 				        <div>
 							<div class="nav-column">
-							    <h3 class="whited">Related Categories</h3>
+							    <h3 class="whited">Featured Games</h3>
 							    <ul>
-							        <li><a href="#">Pampers Diapers</a></li>
-							        <li><a href="#">Huggies Diapers</a></li>
-							        <li><a href="#">Diapers</a></li>
+							        <li><a href="#">Dragon Run</a></li>
+							        <li><a href="#">Tetris</a></li>
+							        <li><a href="#">Mario Bros</a></li>
 							    </ul>
 							 
-							    <h3 class="whited">Brands</h3>
+							    <h3 class="whited">Genre</h3>
 							    <ul>
-							        <li><a href="#">Driving shoes</a></li>
-							        <li><a href="#">Espadrilles</a></li>
+							        <li><a href="#">Adventure</a></li>
+							        <li><a href="#">Strategy</a></li>
 							    </ul>
 							</div>
 				        </div>
@@ -124,6 +124,64 @@
 <!-- End Menu -->
 <!-- Caorusel -->
 
+<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+  <!-- Overlay -->
+  <div class="overlay"></div>
+
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#bs-carousel" data-slide-to="1"></li>
+    <li data-target="#bs-carousel" data-slide-to="2"></li>
+  </ol>
+  
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item slides active">
+      <div class="slide-1"></div>
+      <div class="hero">
+        <hgroup>
+        	<center><img src="" alt=""></center>
+            <h1>DRAGON RUN</h1>        
+            <h3 class="bold">HOW FAR YOU CAN <span class="greened">CONTROL THE DRAGON </span>AND <span class="greened">CHASE YOUR BEST SCORE?</span></h3>
+        </hgroup>
+        <button class="btn btn-hero btn-lg" role="button">Play Now ! <span class="fa fa-gamepad"></span></button>
+      </div>
+    </div>
+    <div class="item slides">
+      <div class="slide-2"></div>
+      <div class="hero">        
+        <hgroup>
+            <h1>TETRIS</h1>        
+            <h3 class="bold">ROTATE, MOVE, AND DROP THE FALLING <span class="greened">TETRIMINOS</span> INSIDE THE MATRIX</h3>
+        </hgroup>       
+        <button class="btn btn-hero btn-lg" role="button">Play Now ! <span class="fa fa-gamepad"></span></button>
+      </div>
+    </div>
+    <div class="item slides">
+      <div class="slide-3"></div>
+      <div class="hero">        
+        <hgroup>
+            <h1>MARIO BROS</h1>        
+            <h3 class="bold">GAINS POINTS BY <span class="greened">DEFEATING MULTIPLE ENEMIES</span> CONSECUTIVELY AND CAN <span class="greened">PARTICIPATE IN A BONUS ROUND</span> TO GAIN MORE POINTS</h3>
+        </hgroup>
+        <button class="btn btn-warning btn-lg" role="button" disabled>Cooming Soon! <span class="fa fa-gamepad"></span></button>
+      </div>
+    </div>
+  </div> 
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#bs-carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#bs-carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div>
+
 <!-- End Carousel -->
 
 <!-- Main Title -->
@@ -148,7 +206,7 @@
 			</div>
 		</div>
 		<div class="col-lg-4">
-			<div class="col-lg-12 box-bordered centered bold f8 bordered-blue-side" style="height: 60px">
+			<div class="col-lg-12 box-bordered centered bold f10 bordered-blue-side" style="height: 60px">
 			<a href="#" class="link-game">LEADERBOARD : </a> 
 			<a href="#" class="link-game blued">TETRIS <span class="fa fa-arrow-down"></span></a>
 			</div>
@@ -200,19 +258,140 @@
 		</div>
 	</div>
 	<div class="col-lg-4">
-		<div class="col-lg-12 box-bordered">
-			<img src="./images/game/game (1).png" class="overlay-game-image leaderboard" alt="">
-			<div class="title bold whited">TITLE GOES HERE</div>
-			<div>&nbsp;</div>
-			<div class="title bold whited f8">Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.</div>
+		<div class="col-lg-12">
+			<div class="col-lg-2 box-bordered whited">
+				No.
+			</div>
+			<div class="col-lg-5 box-bordered whited">
+				Username
+			</div>
+			<div class="col-lg-3 box-bordered whited">
+				Point
+			</div>
+		</div>
+		<div class="col-lg-12">
+			<div class="col-lg-2 box-bordered whited">
+				1
+			</div>
+			<div class="col-lg-5 box-bordered whited">
+				Ujanggg
+			</div>
+			<div class="col-lg-3 box-bordered whited">
+				9069
+			</div>
+		</div>
+		<div class="col-lg-12">
+			<div class="col-lg-2 box-bordered whited">
+				2
+			</div>
+			<div class="col-lg-5 box-bordered whited">
+				fahmibrillian
+			</div>
+			<div class="col-lg-3 box-bordered whited">
+				9000
+			</div>
+		</div>
+		<div class="col-lg-12">
+			<div class="col-lg-2 box-bordered whited">
+				3
+			</div>
+			<div class="col-lg-5 box-bordered whited">
+				evieffendy
+			</div>
+			<div class="col-lg-3 box-bordered whited">
+				8792
+			</div>
+		</div>
+		<div class="col-lg-12">
+			<div class="col-lg-2 box-bordered whited">
+				4
+			</div>
+			<div class="col-lg-5 box-bordered whited">
+				iwang
+			</div>
+			<div class="col-lg-3 box-bordered whited">
+				8672
+			</div>
+		</div>
+		<div class="col-lg-12">
+			<div class="col-lg-2 box-bordered whited">
+				5
+			</div>
+			<div class="col-lg-5 box-bordered whited">
+				banew
+			</div>
+			<div class="col-lg-3 box-bordered whited">
+				8568
+			</div>
+		</div>
+			<div class="col-lg-12">
+			<div class="col-lg-2 box-bordered whited">
+				6
+			</div>
+			<div class="col-lg-5 box-bordered whited">
+				Ujanggg
+			</div>
+			<div class="col-lg-3 box-bordered whited">
+				9069
+			</div>
+		</div>
+		<div class="col-lg-12">
+			<div class="col-lg-2 box-bordered whited">
+				7
+			</div>
+			<div class="col-lg-5 box-bordered whited">
+				fahmibrillian
+			</div>
+			<div class="col-lg-3 box-bordered whited">
+				9000
+			</div>
+		</div>
+		<div class="col-lg-12">
+			<div class="col-lg-2 box-bordered whited">
+				8
+			</div>
+			<div class="col-lg-5 box-bordered whited">
+				evieffendy
+			</div>
+			<div class="col-lg-3 box-bordered whited">
+				8792
+			</div>
+		</div>
+		<div class="col-lg-12">
+			<div class="col-lg-2 box-bordered whited">
+				9
+			</div>
+			<div class="col-lg-5 box-bordered whited">
+				iwang
+			</div>
+			<div class="col-lg-3 box-bordered whited">
+				8672
+			</div>
+		</div>
+		<div class="col-lg-12">
+			<div class="col-lg-2 box-bordered whited">
+				10
+			</div>
+			<div class="col-lg-5 box-bordered whited">
+				banew
+			</div>
+			<div class="col-lg-3 box-bordered whited">
+				8568
+			</div>
 		</div>
 	</div>
 </div>
 </div>
 
-
-
 <script src="./js/jquery/jquery-3.1.0.min.js" type="text/javascript" charset="utf-8" async defer></script>
 <script src="./js/jquery-ui/jquery-ui.min.js" type="text/javascript" charset="utf-8" async defer></script>
+<script src="./css/bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
+<script>
+$( document ).ready(function() {
+$(".left").click(function(){
+    $("#myCarousel").carousel("prev");
+});
+});
+</script>
 </body>
 </html>
