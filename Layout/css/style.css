@@ -24,6 +24,10 @@ a {
     color:white;
 }
 
+a:hover{
+    color:#0095d6;   
+}
+
 .nav-title{
     position: relative;
     display: block;
@@ -453,6 +457,13 @@ Image credits: unsplash.com
     border-color:grey;
     border-style: solid;
     margin : 5px;
+}
+
+.box-socmed{
+    background-color: #292c31;
+    border-radius: 0.5em;
+    border-color:white;
+    border-style: solid;
 }
 
 .bordered-blue-side{
