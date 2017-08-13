@@ -4,7 +4,7 @@
  @font-face { font-family: Montserrat; src: url('../fonts/Montserrat-Regular.otf'); } 
  @font-face { font-family: Montserrat; font-weight: bold; src: url('../fonts/Montserrat-Bold.otf');}
 
-/* Font Aweome */
+/* Font Awesome */
 @import url("./font-awesome/font-awesome.css");
 
 body{
@@ -22,6 +22,27 @@ a .parenting-link{
 
 a {
     color:white;
+}
+
+.nav-title{
+    position: relative;
+    display: block;
+    z-index: 510;
+    height: 50px;
+    padding: 0 20px;
+    line-height: 50px;
+ 
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff;
+    text-shadow: 0 0 1px rgba(0,0,0,.35);
+ 
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
 }
 
 .middled{
@@ -79,6 +100,14 @@ a {
 	align-items: center; /* align vertical */
 }
 
+#centered-leaderboard{
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    line-height: 30px;
+    margin-left: 10px;
+}
+
 .btn-blued {
     display: inline-block;
     z-index: 510;
@@ -95,6 +124,18 @@ a {
     -o-transition: all .3s ease;
     -ms-transition: all .3s ease;
     transition: all .3s ease;
+}
+
+.socmed{
+    line-height: 50px;
+    margin-left: 10px;
+    text-shadow: 0 0 1px rgba(0,0,0,.35);
+ 
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;   
 }
 
 .btn-blacked {
@@ -115,6 +156,14 @@ a {
     -ms-transition: all .3s ease;
     transition: all .3s ease;
 }
+
+.centered{
+    
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+
 .f18{
 	font-size: 18pt;
 }
@@ -130,6 +179,11 @@ a {
 .f10{
 	font-size: 10pt;
 }
+
+.f8{
+    font-size: 8pt;
+}
+
 
 .bold{
 	font-weight: 900;
@@ -284,4 +338,35 @@ a {
     position: relative;
     height: 40%;
     width: 40%;
+}
+
+.box-bordered{
+    background-color: #292c31;
+    border-radius: 0.2em;
+    border-color:grey;
+    border-style: solid;
+    margin : 5px;
+}
+
+.bordered-blue-side{
+    border-left: 10px solid #0095d6;
+}
+
+.overlay-game-image {
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+.game-image{
+    height: 190px;width: 320px;
+}
+
+.leaderboard{
+    height: 490px;width: 320px;
 }
